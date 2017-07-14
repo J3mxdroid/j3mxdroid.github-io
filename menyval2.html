@@ -1,0 +1,86 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>mina inträssen och hur jag gör manus!</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+<header>
+    <h1>Mina intressen och hur jag gör manus!</h1>
+</header>
+<main>
+    <h2>Välkommen!</h2>
+    <p>Den här hemsidan handlar om allt jag tycker är roligt. Kika runt och se om det är något du också tycker om!</p>
+    <h3></h3>
+    <p>Jag går i årksurs 6. På fritiden gör jag youtube videos och annat kul!</p>
+</main>
+<H3>jag är ganska bra på att göra videos!
+här är ett exempel på hur jag skriver ett manus:
+<p></p>
+först gör jag ett test manus t.e.x: Hej jag heter Bob!
+<p></p>
+sen så gör jag ett bild manus
+sen så märker jag att jag har inte så mycket tid på mig så jag bara improviserar
+<p></p>
+ t.e.x: Tja ja e Bob!
+ <p></p>
+jag har en youtube kanal där jag lägger upp videos!
+den heter: <a href="https://www.youtube.com/channel/UC1jLfRHFjJvbwBggW2tjocQ">J3mxDroid</a>!
+det var allt här kommer en quiz!
+</H3>
+
+
+<p>Vilken är min populäraste video! (Lets pants 1)</p>
+<input type="text" id="gissning1"/>
+<button onclick="gissa1()">Gissa</button>
+
+<p>Vilken är min första video! (Pepparkakshus 2016)</p>
+<input type="text" id="gissning4"/>
+<button onclick="gissa4()">Gissa</button>
+
+<p>Vilken är min längsta video! (Ulla kärleks krank klagar på allt)</p>
+<input type="text" id="gissning2"/>
+<button onclick="gissa2()">Gissa</button>
+
+<p>Vilken är min kortaste video! (Bonde söker B-rud (Trailer))</p>
+<input type="text" id="gissning3"/>
+<button onclick="gissa3()">Gissa</button>
+
+<p>Håll över musen och klicka på bilderna!</p>
+
+<img src="bilder/Ladda ned.png" class="small" id="ett">
+<img src="bilder/pokemon.jpg" class="small" id="två">
+<img src="bilder/pokemon1.jpg" class="small" id="tre">
+
+
+
+            </div>
+
+
+
+</body>
+</html>

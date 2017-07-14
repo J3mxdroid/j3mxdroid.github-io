@@ -1,0 +1,42 @@
+p {
+	color:red;
+} 
+
+body {
+
+font-family: 'Lobster', cursive;
+
+background-image: url("../bilder/bild1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	position: relative;
+
+}
+.navbar-inverse {
+    background-color: white;
+}
+ul li a{
+
+	background-color: black;
+	text-align: center;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: red;
+}
+
+.nav-pills li a:hover { 
+	background-color: red;
+	
+}
+
+.small{
+width: 280px;
+height: 280px;
+}
+
+#två, #tre{
+	display: none;
+}
+
